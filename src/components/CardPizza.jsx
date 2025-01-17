@@ -4,7 +4,8 @@
 // const CardPizza = ({name, price, ingredients, img}) => {
 const CardPizza = ({producto}) => {
     /* DESTRUCTURING PRODUCTO (PROPS) */
-    const {name, price, ingredients, img, desc, id} = producto
+    // const {name, price, ingredients, img, desc, id} = producto
+    const {name, price, ingredients, img, desc} = producto
     return (
         /* ****** CARD ****** */
         <article className = "card">
