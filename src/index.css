@@ -378,6 +378,63 @@ body{
   border-radius: 5px;
   border-color: #383737;
 }
+/* ******************************************************************* */
+/* ******************************************************************* */
+
+/* ****** COMPONENTE PIZZA  ****** */
+/* SE UTILIZA LA CLASE MAIN-SECTION DEFINIDA EN REGISTER & LOGIN PAGE */
+
+/* SE UTILIZA LA CLASE CART-CONTAINER DEFINIDA EN CART (CARRITO DE COMPRAS)  */
+
+.infoPizzaContainer{
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  align-items: center;
+}
+
+.pizzaImageContainer{
+  width: 50%;
+}
+
+.pizzaImage{
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+}
+
+.pizzaNamDescIngPricContainer{
+  width: 50%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* PIZZA DESCRIPTION */
+.pizzaDescription{
+  /* border: 0.5px solid #c0c4ce; */
+  /* border: 1px solid red; */
+  /* padding: 1em; */
+  color: #d0d1d3;
+}
+
+.ingredientsLi{
+  font-size: small;
+  width: fit-content;
+  list-style-type: none;
+  color: #d0d1d3;
+}
+
+/* pricePIZZA */
+.pricePizza{
+  padding: 0.5em 0em;
+}
+
+/* SE UTILIZA LA CLASE BUTTON-AÑADIR-CARRO DEFINIDA EN PRECIO & BTNS DE VER MÁS Y DE AÑADIR AL CARRO DE COMPRAS */
+
+/* ******************************************************************* */
+/* ******************************************************************* */
+
 
 /* ****** FOOTER ****** */
 .footer{

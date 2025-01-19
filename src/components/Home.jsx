@@ -6,12 +6,12 @@ import { useState, useEffect } from "react"
 /* ************************ COMPONENTE ************************ */
 /************************************************************** */
 const Home = () => {
-    /* GUARDAR LA CONSULTA A LA API PIZZAS */
+    /* GUARDAR LA CONSULTA REALIZADA LA API PIZZAS */
     const [pizzas,setPizzas] = useState([])
 
     /* PARA CONSULTAR A LA API PIZZAS */
     const getPizzas = async () => {
-        // URL del endpoint a consultar
+        // URL DE LA API PIZZAS
         const url = "http://localhost:5000/api/pizzas"
         const response = await fetch(url)
         const dataPizzas = await response.json()
