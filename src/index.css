@@ -36,7 +36,7 @@ body{
   /* text-align: center; */
   align-items: center;
   justify-content: space-between;
-  padding: 0em 1em;
+  padding: 1em 1em;
 }
 
 /* ****** NOMBRE DE LA WEB & LAS OPCIONES ****** */
@@ -445,4 +445,5 @@ body{
   align-items: center;
   background-color: #1F1F1F;
   color: white;
+  padding: 1em;
 }
