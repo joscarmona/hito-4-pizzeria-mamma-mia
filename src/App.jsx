@@ -15,7 +15,7 @@ function App() {
       {/* <Home /> */}
       {/* <RegisterPage /> */}
       {/* <LoginPage /> */}
-      {/* <Cart /> */}
+      <Cart />
       <Pizza />
       <Footer />
     </div>
